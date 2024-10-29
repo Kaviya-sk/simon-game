@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=IM+Fell+English+SC&display=swap");
+
+/* background-colors
+#EECAD5
+*/
+
+body {
+  text-align: center;
+  background-color: #185a9d;
+  font-family: "IM Fell English SC", serif;
+  /* background: linear-gradient(135deg, #f7797d, #FBD786, #C6FFDD); */
+  /* background: linear-gradient(135deg, #a1c4fd, #c2e9fb); */
+  /* background: linear-gradient(135deg, #fc00ff, #00dbde); */
+  /* background: linear-gradient(135deg, #00c6ff, #0072ff); */
+
+  /* background: linear-gradient(#185a9d, #43cea2, #185a9d); */
+}
+
+#level-title {
+  /* font-family: 'Press Start 2P', cursive; */
+  font-size: 3rem;
+  margin: 5%;
+  color: white;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 5px solid black;
+  border-radius: 15%;
+}
+
+.game-over {
+  background-color: red !important;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
